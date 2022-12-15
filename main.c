@@ -82,7 +82,7 @@ if(strcmp(input,"INSERT")==0)
     temp = construct();
     insert(root,temp);
 
-    //printf("%d\n",temp->data);
+  
 
     findParent(root,temp->data,-1);
     if(temp->data == root->data)
